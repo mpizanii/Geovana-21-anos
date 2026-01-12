@@ -126,6 +126,9 @@ const ModalConfirm = ({ show, handleClose }) => {
         <Form.Group className="mb-3">
           <Form.Label style={{ color: '#d4af37', fontWeight: 'bold' }}>
             Pesquisar convidado
+            <p style={{ fontWeight: 'normal', fontSize: '0.9rem', marginTop: '0.25rem', marginBottom: '0' }}>
+                Caso o nome não apareça, verifique se já não foi confirmado, ou contate a aniversariante
+            </p>
           </Form.Label>
           <div className="position-relative">
             <Form.Control
