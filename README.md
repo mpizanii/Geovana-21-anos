@@ -1,16 +1,28 @@
-# React + Vite
+# Aplicação Web desenvolvida para controle de convidados de uma festa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto simples de confirmação de presença para uma festa, feito em **React + Supabase**. Os convidados podem confirmar presença pelo site e a aniversariante pode acompanhar a lista por uma página administrativa protegida por senha.
 
-Currently, two official plugins are available:
+## Tecnologias usadas
+- React (Vite);
+- Supabase (PostgreSQL);
+- Vercel (Deploy)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+**Página pública**
+- Página com informações da festa e formulário de confirmação do convidado;
 
-## React Compiler
+**Painel administrativo**
+- Acesso por URL secreta protegida por senha
+- Lista de convidados (filtro para confimados/pendentes)
+- Opção de adicionar/remover convidados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Preview
 
-## Expanding the ESLint configuration
+Página Pública
+![Image](https://github.com/user-attachments/assets/618aaa67-bf00-4a7a-9d02-61660e53d6c6)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Painel Administrativo
+![Image](https://github.com/user-attachments/assets/db166889-c6b8-469e-b443-507f11461d71)
+
+## Produção
+Acesse o site clicando [aqui](https://geovana-21-anos.vercel.app)
